@@ -28,7 +28,7 @@
                     <div data-details class="fixed top-0 right-0 bottom-0 left-0"></div>
                     <div data-details class="absolute left-0 mt1 nowrap white bg-gray rounded">
                         <a href="#!" class="button block button-transparent">Setting</a>
-                        <a href="#!" class="button block button-transparent">Logout</a>
+                        <a href="{{ route('logout') }}" class="button block button-transparent">Logout</a>
                     </div>
                 </div>
             </div>

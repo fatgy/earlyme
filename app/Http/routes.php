@@ -23,7 +23,7 @@ $app->get('/login/error', 'App\Http\Controllers\SessionController@error');
 
 $app->get('/login/facebook', 'App\Http\Controllers\SessionController@facebook');
 
-$app->get('/logout', 'App\Http\Controllers\SessionController@logout');
+$app->get('/logout', ['as' => 'logout', 'uses' => 'App\Http\Controllers\SessionController@logout']);
 
 
 $app->get('/{identifier_id:[0-9]+}', [
