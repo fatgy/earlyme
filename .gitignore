@@ -1,0 +1,6 @@
+/lumen.log
+/vendor
+.env
+.idea
+.editorconfig
+composer.lock
